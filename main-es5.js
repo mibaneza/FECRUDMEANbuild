@@ -2353,7 +2353,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/tslib/tslib.es6.js");
 
     var GLOBAL = {
-      url: 'https://becrudmean.herokuapp.com'
+      url: 'https://bemeancruds.herokuapp.com'
     };
     /***/
   },
