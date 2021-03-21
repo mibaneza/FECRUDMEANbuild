@@ -900,11 +900,8 @@ let HijoComponent = class HijoComponent {
     }
     getHijoIfindID(search) {
         this.hijoService.gethijoByIdPersona(search).subscribe(hijoData => {
-            //       this.hijoList.push(hijoData);
             this.dataSource.data = hijoData;
             this.hijoList = hijoData;
-            //    this.dataSource._updateChangeSubscription();
-            // console.log(hijoData);
         }, error => {
             console.log('ERROR ');
             console.log(error);
@@ -1343,7 +1340,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 
 let GLOBAL = {
-    url: 'http://bemeancruds.herokuapp.com'
+    url: 'https://bemeancruds.herokuapp.com'
 };
 
 

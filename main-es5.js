@@ -1671,10 +1671,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           var _this2 = this;
 
           this.hijoService.gethijoByIdPersona(search).subscribe(function (hijoData) {
-            //       this.hijoList.push(hijoData);
             _this2.dataSource.data = hijoData;
-            _this2.hijoList = hijoData; //    this.dataSource._updateChangeSubscription();
-            // console.log(hijoData);
+            _this2.hijoList = hijoData;
           }, function (error) {
             console.log('ERROR ');
             console.log(error);
@@ -2354,7 +2352,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     "./node_modules/tslib/tslib.es6.js");
 
     var GLOBAL = {
-      url: 'http://bemeancruds.herokuapp.com'
+      url: 'https://bemeancruds.herokuapp.com'
     };
     /***/
   },
